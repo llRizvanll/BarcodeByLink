@@ -7,7 +7,10 @@
 <table>
   <tr>
     <td>
-      <img src="./src/assets/images/screenshot1.png" width='100%'>
+      <img src="./src/assets/images/screenshot-web1.png" width='100%'>
+    </td>
+    <td>
+      <img src="./src/assets/images/screenshot-mobile1.png" width='100%'>
     </td>
   </tr>
 </table>
