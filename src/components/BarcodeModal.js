@@ -1,6 +1,6 @@
 // BarcodeModal.js
-import React from 'react';
-import { Modal } from 'react-bootstrap';
+import React from "react";
+import { Modal } from "react-bootstrap";
 
 const BarcodeModal = ({ show, handleClose, barcodeSrc }) => {
   const styles = {
@@ -32,15 +32,32 @@ const BarcodeModal = ({ show, handleClose, barcodeSrc }) => {
         <Modal.Header
           closeButton
           style={{
-            backgroundColor: "#3f51b5",
-            borderBottom: "1px solid #dee2e6",
-            color: "#fff",
-            boxShadow: "0 2px 8px rgba(0,0,0,0.2)",
-            padding: "10px",
-            borderRadius: "4px",
+            backgroundColor: "#418AF7",
+            padding: "20px",
+            margin: "10px",
           }}
         >
-          <Modal.Title>Scan Image!</Modal.Title>
+          <Modal.Title
+            style={{
+              color: "#fff",
+              fontSize: "24px",
+              fontWeight: "bold",
+              marginBottom: "10px",
+            }}
+          >
+            Scan Image!
+          </Modal.Title>
+          <p style={{ color: "#fff", fontSize: "14px", marginTop: "10px" }}>
+            Generated at{" "}
+            {new Date().toLocaleString("en-US", {
+              year: "numeric",
+              month: "long",
+              day: "numeric",
+              hour: "numeric",
+              minute: "numeric",
+              second: "numeric",
+            })}
+          </p>
         </Modal.Header>
         <Modal.Body
           style={{
@@ -78,7 +95,7 @@ const BarcodeModal = ({ show, handleClose, barcodeSrc }) => {
           <button
             onClick={handleClose}
             style={{
-              backgroundColor: "#3f51b5",
+              backgroundColor: "#418AF7",
               color: "#fff",
               padding: "10px 20px",
               margin: "10px 0",
