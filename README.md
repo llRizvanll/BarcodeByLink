@@ -1,16 +1,25 @@
-# Instant Barcode By Link / Text
+# Instant Barcode Generator: React App and Chrome Extension
 
-Generate instant barcode images from any link, text, or description with a single click. This project is available as both a web app and a Chrome extension.
+Generate instant barcode images from any link, text, or description with a single click. This project, Instant Barcode Generator, is available as both a web app and a Chrome extension.
 
 ![Banner](./public/icon128.png)
 
-## Features
+## Key Features of Instant Barcode Generator
 
-- Generate barcodes instantly
-- Easy to use interface
-- Available as a web app and a Chrome extension
+- Generate barcodes instantly: Just enter your text and get a barcode immediately.
+- User-friendly interface: The app is designed to be intuitive and easy to use.
+- Versatility: Available as a web app and a Chrome extension.
 
-## React App
+
+## Contribute
+
+If you like this project and want to help me create more projects like this, **please consider** buying me a coffee:
+
+<a href="https://www.buymeacoffee.com/rizvanhawaldar" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-black.png" alt="Buy Me A Coffee" width=15% height=15%></a>
+
+## How to Use Instant Barcode Generator
+
+### Web App
 
 The web app is deployed on [Vercel](https://barcode-by-link.vercel.app/). Here's what it looks like:
 
@@ -20,7 +29,7 @@ And here's the mobile view:
 
 ![Mobile view](./src/assets/images/screenshot-mobile1.png)
 
-## Chrome Extension
+### Chrome Extension
 
 We also have a Chrome extension. Here's what it looks like:
 
@@ -30,11 +39,7 @@ And here's another view of the Chrome extension:
 
 ![Chrome extension](./src/assets/images/chrome-extension2.png)
 
-## Contribute
 
-If you like this project and want to help me create more projects like this, consider buying me a coffee:
-
-<a href="https://www.buymeacoffee.com/rizvanhawaldar" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-black.png" alt="Buy Me A Coffee" width=15% height=15%></a>
 
 ## Running the App
 
@@ -59,3 +64,9 @@ To load the Chrome extension locally, follow these steps:
 4. Click on "Load unpacked" and select the `build` directory of your project.
 
 The extension will be added to your browser toolbar.
+
+## Contribute to Instant Barcode Generator
+
+If you like this project and want to help me create more projects like this, consider buying me a coffee:
+
+<a href="https://www.buymeacoffee.com/rizvanhawaldar" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-black.png" alt="Buy Me A Coffee" width=15% height=15%></a>
