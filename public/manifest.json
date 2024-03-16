@@ -1,25 +1,17 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+    "manifest_version": 2,
+    "name": "Instant Barcode By Link",
+    "description": "Create instant barcode images using from any link or text or description on a single click.",
+    "version": "1.0",
+    "icons": {
+      "16": "icon16.png",
+      "48": "icon64.png",
+      "128": "icon128.png"
     },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
+    "browser_action": {
+      "default_popup": "index.html",
+      "default_width": 600,
+      "default_height": 400
     },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
-}
+    "permissions": ["activeTab"]
+  }
