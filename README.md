@@ -1,4 +1,4 @@
-# Instant Barcode By Link
+# Instant Barcode By Link / Text
 
 Generate instant barcode images from any link, text, or description with a single click. This project is available as both a web app and a Chrome extension.
 
@@ -10,7 +10,7 @@ Generate instant barcode images from any link, text, or description with a singl
 - Easy to use interface
 - Available as a web app and a Chrome extension
 
-## Web App
+## React App
 
 The web app is deployed on [Vercel](https://barcode-by-link.vercel.app/). Here's what it looks like:
 
