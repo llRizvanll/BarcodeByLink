@@ -1,81 +1,61 @@
-<b>PLEASE HELP ME TO CONTRIBUTE MORE PROJECT LIKE THIS!</b>
+# Instant Barcode By Link
+
+Generate instant barcode images from any link, text, or description with a single click. This project is available as both a web app and a Chrome extension.
+
+![Banner](./public/icon128.png)
+
+## Features
+
+- Generate barcodes instantly
+- Easy to use interface
+- Available as a web app and a Chrome extension
+
+## Web App
+
+The web app is deployed on [Vercel](https://barcode-by-link.vercel.app/). Here's what it looks like:
+
+![Web View](./src/assets/images/screenshot-web1.png)
+
+And here's the mobile view:
+
+![Mobile view](./src/assets/images/screenshot-mobile1.png)
+
+## Chrome Extension
+
+We also have a Chrome extension. Here's what it looks like:
+
+![Chrome extension](./src/assets/images/chrome-extension1.png)
+
+And here's another view of the Chrome extension:
+
+![Chrome extension](./src/assets/images/chrome-extension2.png)
+
+## Contribute
+
+If you like this project and want to help me create more projects like this, consider buying me a coffee:
 
 <a href="https://www.buymeacoffee.com/rizvanhawaldar" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-black.png" alt="Buy Me A Coffee" width=15% height=15%></a>
-<br/><br/>
-## Web App - deployed on https://barcode-by-link.vercel.app/
-## Chrome Extension Profile created, try installing it on your system
-<br/>
-<table>
-  <tr>
-    <td>
-      Web View
-      <img src="./src/assets/images/screenshot-web1.png" width='100%'>
-    </td>
-  </tr>
-  <br/>
-  <tr>
-    <td>
-      Mobile view
-      <img src="./src/assets/images/screenshot-mobile1.png" height=400 width='auto'>
-    </td>
-  </tr>
-  <br/>
 
-  
-  <tr>
-    <td>
-      Chrome extension
-      <img src="./src/assets/images/chrome-extension1.png" width='100%'>
-    </td>
-  </tr>
-  
-  <br/>
-  <tr>
-    <td>
-      Chrome extension
-      <img src="./src/assets/images/chrome-extension2.png" width='100%'>
-    </td>
-  </tr>
-</table>
+## Running the App
 
+### Web App
 
-## Run the web app
+To run the web app locally, follow these steps:
 
-In the project directory, you can run:
+1. Clone the repository: `git clone https://github.com/yourusername/yourrepository.git`
+2. Navigate into the directory: `cd yourrepository`
+3. Install the dependencies: `npm install`
+4. Start the app: `npm start`
 
-### `npm start`
+The app will be available at `http://localhost:3000`.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Chrome Extension
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To load the Chrome extension locally, follow these steps:
 
-### `npm test`
+1. Build the project: `npm run build`
+2. Go to `chrome://extensions/` in your Chrome browser.
+3. Enable Developer mode (toggle the switch in the top right corner).
+4. Click on "Load unpacked" and select the `build` directory of your project.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The extension will be added to your browser toolbar.
