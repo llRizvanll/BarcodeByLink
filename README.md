@@ -2,17 +2,38 @@
 
 <a href="https://www.buymeacoffee.com/rizvanhawaldar" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-black.png" alt="Buy Me A Coffee" width=15% height=15%></a>
 <br/><br/>
-
+## Web App - deployed on https://barcode-by-link.vercel.app/
+## Chrome Extension Profile created, try installing it on your system
 <br/>
 <table>
   <tr>
     <td>
+      Web View
       <img src="./src/assets/images/screenshot-web1.png" width='100%'>
     </td>
   </tr>
+  <br/>
   <tr>
     <td>
-      <img src="./src/assets/images/screenshot-mobile1.png" width='100%'>
+      Mobile view
+      <img src="./src/assets/images/screenshot-mobile1.png" height=400 width='auto'>
+    </td>
+  </tr>
+  <br/>
+
+  
+  <tr>
+    <td>
+      Chrome extension
+      <img src="./src/assets/images/chrome-extension1.png" width='100%'>
+    </td>
+  </tr>
+  
+  <br/>
+  <tr>
+    <td>
+      Chrome extension
+      <img src="./src/assets/images/chrome-extension2.png" width='100%'>
     </td>
   </tr>
 </table>
